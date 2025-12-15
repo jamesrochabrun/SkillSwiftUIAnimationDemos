@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "name": "Aurora Dreams",
+    "version": "1.0",
+    "author": "DemoView"
+  },
+
+  "canvas": {
+    "backgroundColor": "#0A0A1A",
+    "cornerRadius": 0
+  },
+
+  "colorPalettes": {
+    "primary": {
+      "colors": ["#FF6B6B", "#4ECDC4", "#45B7D1", "#96CEB4", "#FFEAA7"],
+      "transitionDuration": 4.0,
+      "transitionStyle": "easeInOut"
+    },
+    "secondary": {
+      "colors": ["#A855F7", "#EC4899", "#F97316", "#EAB308"],
+      "transitionDuration": 5.0,
+      "transitionStyle": "linear"
+    },
+    "accent": {
+      "colors": ["#06B6D4", "#8B5CF6", "#D946EF"],
+      "transitionDuration": 3.0,
+      "transitionStyle": "easeIn"
+    }
+  },
+
+  "waves": [
+    {
+      "id": "wave1",
+      "enabled": true,
+      "palette": "primary",
+      "opacity": 0.7,
+      "blendMode": "plusLighter",
+      "amplitude": 50,
+      "frequency": 1.5,
+      "phase": 0,
+      "speed": 0.8,
+      "verticalOffset": 0.6,
+      "blur": 30,
+      "animation": {
+        "phaseSpeed": 2.0,
+        "amplitudeVariation": 20,
+        "amplitudeSpeed": 3.0
+      }
+    },
+    {
+      "id": "wave2",
+      "enabled": true,
+      "palette": "secondary",
+      "opacity": 0.5,
+      "blendMode": "plusLighter",
+      "amplitude": 70,
+      "frequency": 1.0,
+      "phase": 1.57,
+      "speed": 0.6,
+      "verticalOffset": 0.5,
+      "blur": 40,
+      "animation": {
+        "phaseSpeed": 1.5,
+        "amplitudeVariation": 30,
+        "amplitudeSpeed": 4.0
+      }
+    },
+    {
+      "id": "wave3",
+      "enabled": true,
+      "palette": "accent",
+      "opacity": 0.4,
+      "blendMode": "plusLighter",
+      "amplitude": 40,
+      "frequency": 2.0,
+      "phase": 3.14,
+      "speed": 1.0,
+      "verticalOffset": 0.7,
+      "blur": 25,
+      "animation": {
+        "phaseSpeed": 2.5,
+        "amplitudeVariation": 15,
+        "amplitudeSpeed": 2.5
+      }
+    }
+  ],
+
+  "orbs": {
+    "enabled": true,
+    "count": 8,
+    "sizeRange": {
+      "min": 20,
+      "max": 80
+    },
+    "opacityRange": {
+      "min": 0.3,
+      "max": 0.8
+    },
+    "blur": 15,
+    "palette": "primary",
+    "animation": {
+      "driftSpeed": {
+        "min": 10,
+        "max": 30
+      },
+      "pulseScale": 1.2,
+      "pulseDuration": 2.0
+    }
+  },
+
+  "glowEffect": {
+    "enabled": true,
+    "color": "#FFFFFF",
+    "opacity": 0.15,
+    "radius": 100,
+    "pulseMin": 0.8,
+    "pulseMax": 1.2,
+    "pulseDuration": 3.0
+  },
+
+  "globalAnimation": {
+    "autoStart": true,
+    "looping": true,
+    "masterSpeed": 1.0,
+    "colorCycleEnabled": true,
+    "colorCycleDuration": 8.0
+  },
+
+  "interaction": {
+    "tapToPause": true,
+    "dragToDistort": false,
+    "hapticFeedback": true
+  }
+}
